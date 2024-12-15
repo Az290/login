@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500"
+    android:id="@+id/main"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="316dp"
+        android:layout_height="509dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/bg_rounded"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Tiêu đề Đăng ký -->
+        <TextView
+            android:id="@+id/signup_title"
+            android:layout_width="142dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="54dp"
+            android:text="Đăng ký"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="215dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="45dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/baseline_email_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_title" />
+
+        <!-- Mật khẩu -->
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="215dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_email" />
+
+        <!-- Xác nhận mật khẩu -->
+        <EditText
+            android:id="@+id/signup_confirm_password"
+            android:layout_width="215dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:hint="Xác nhận mật khẩu"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_password" />
+
+        <!-- Nút Đăng ký -->
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Đăng ký"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_confirm_password" />
+
+        <!-- Chuyển đến màn hình đăng nhập -->
+
+        <!-- Đăng ký người bán -->
+
+        <TextView
+            android:id="@+id/loginRedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:gravity="center"
+            android:text="Bạn đã có tài khoản? Đăng nhập"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="12sp"
+            android:textColor="#4B0082"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.316"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_button" />
+
+        <TextView
+            android:id="@+id/signup_seller_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="80dp"
+            android:text="Đăng ký tài khoản người bán"
+            android:textColor="#ff4500"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.348"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_button"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

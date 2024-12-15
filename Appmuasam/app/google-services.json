@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "757018062497",
+    "project_id": "appbanhang-4598f",
+    "storage_bucket": "appbanhang-4598f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757018062497:android:197a94a2f4c0eead118ae0",
+        "android_client_info": {
+          "package_name": "com.example.appmuasam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757018062497-fnb6rff15e7rp7omot7a7aq8d0g5s32o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appmuasam",
+            "certificate_hash": "0fee6cbb85227ea8906e4797074e7ee8883a8def"
+          }
+        },
+        {
+          "client_id": "757018062497-8c41hfcncdv6i0c2n5k0b5ca61ptlatk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9b-yCqE0WorrlapwTwYejG4fc90xXjoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757018062497-8c41hfcncdv6i0c2n5k0b5ca61ptlatk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757018062497:android:a0c426781268e5a8118ae0",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757018062497-8c41hfcncdv6i0c2n5k0b5ca61ptlatk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9b-yCqE0WorrlapwTwYejG4fc90xXjoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757018062497-8c41hfcncdv6i0c2n5k0b5ca61ptlatk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
